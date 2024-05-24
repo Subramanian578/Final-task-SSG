@@ -1,0 +1,80 @@
+img
+{
+    width: 20%;
+    height: 16%;
+    text-align: center;
+}
+.dmain
+{
+    background-color: rgb(233, 244, 244);
+    margin-left: 18%;
+    width: 1200px;
+    height: 650px;
+    margin-top: 6%;
+    position: fixed;
+}
+.pc
+{
+  height: 250px;
+  width: 300px;
+}
+.c
+{
+  background-image: url("c.png");
+  height: 225px;
+  width: 300px;
+  background-repeat: no-repeat;
+  background-color: rgb(74, 175, 230);
+  border-radius: 20px;
+}
+.py
+{
+  background-image: url("py.jpg");
+  height: 225px;
+  width: 300px;
+  background-repeat: no-repeat;
+  background-color: rgb(74, 175, 230);
+  border-radius: 20px;
+}
+.ja
+{
+  background-image: url("java.jpeg");
+  height: 225px;
+  width: 300px;
+  background-repeat: no-repeat;
+  background-color: rgb(74, 175, 230);
+  border-radius: 20px;
+}
+.flexcon
+{
+  display: flex;
+  flex-direction: row;
+  padding-top: 12%;
+  gap: 30px;
+  padding-left: 20px;
+}
+.flexcon1
+{
+  display: flex;
+  flex-direction: row;
+  padding-top: 1%;
+  gap: 30px;
+  padding-left: 20px;
+}
+.cp
+{
+    text-align: center;
+    padding-left: 30%;
+    padding-top: 60%; 
+    height: 25px;
+    width: 300px;
+    
+}
+.gbtn{
+  cursor: pointer;
+  border: none;
+  background: none;
+  width: 300px;
+  padding-left: 10%;
+  padding-top: 60%;
+}

@@ -1,0 +1,105 @@
+.leftside
+{
+    height: 100vh;
+    width: 30vh;
+    /* background-color: white; */
+    position: fixed;
+    gap: 100px;
+    margin-left: 0%;
+    margin-top: 1%;
+}
+/* .search
+{
+    border-width: 40%;
+    width: 100%;
+} */
+
+.search {
+    
+    width: 249px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+  }
+  
+.logo
+{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.btn
+{
+    color: black;
+    width: 100%;
+    height: 90%;
+    padding: 16px;
+    border-radius: 6px;
+    border: 0px;
+    background-color: white;
+}
+.btn:hover
+{
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    background-color: aquamarine;
+}
+.top
+{
+    width: 99%;
+    height: 10%;
+    background-color: white;
+    margin-top: 0%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+}
+.btnnow
+{
+    color: black;
+    width: 100%;
+    height: 90%;
+    padding: 16px;
+    border-radius: 6px;
+    border: 0px;
+    background-color: aquamarine;
+}
+img
+{
+    width: 20%;
+    height: 16%;
+    text-align: center;
+}
+.form
+{
+    display: block;
+    gap: 50px;
+    border-width: 2px;
+    border-color: black;
+    margin-bottom: 20px;
+    color: black;
+    border-color: black;
+    background-color: white;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 80%;
+}
+.topleft
+{
+    margin-top: 0%;
+    margin-left: 0%;
+}
+.pro{
+    margin-top: 30PX;
+     display: flex; 
+    width: 200px;
+    margin-left: 50px;
+   gap: 80px;
+}
+
+
+aside{
+    float: right;
+}
